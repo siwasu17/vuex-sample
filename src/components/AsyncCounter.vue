@@ -12,7 +12,7 @@ export default {
   name: "AsyncCounter",
   computed: {
     isWaiting: function(){
-      return this.$store.state.waiting;
+      return this.$store.state.counter.waiting;
     }
   },
   methods: {

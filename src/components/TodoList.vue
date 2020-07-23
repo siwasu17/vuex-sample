@@ -17,7 +17,7 @@ export default {
   computed: {
     ...mapGetters(["doneTodosCount", "getTodoById"]),
     todos: function(){
-      return this.$store.state.todos;
+      return this.$store.state.todoList.todos;
     }
   }
 };

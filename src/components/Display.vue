@@ -10,7 +10,7 @@ export default {
   name: 'Display',
   computed: {
     count() {
-      return this.$store.state.count;
+      return this.$store.state.counter.count;
     }
   }
 }

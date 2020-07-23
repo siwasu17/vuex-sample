@@ -10,7 +10,6 @@ export default {
   name: 'Counter',
   methods: {
     incr(v) {
-//      this.$store.commit('incrementN', v);
       this.$store.commit({
         type: 'incrementN2',
         amount: v
